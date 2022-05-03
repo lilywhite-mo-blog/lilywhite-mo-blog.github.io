@@ -1,7 +1,12 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
+deploy:
+  type: git
+  repo: https://github.com/lilywhite-mo-blog/lilywhite-mo-blog.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
+  message: 'Site Updated'
 # Site
 title: 莉莉白的数学笔记本
 subtitle: ''
@@ -101,5 +106,3 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
