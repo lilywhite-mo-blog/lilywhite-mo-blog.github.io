@@ -1,3 +1,10 @@
+---
+title: LSMO 数论题解答（扩展 Euler）
+mathjax: true
+---
+
+** 全文转自 OI Wiki **
+
 定义 $\varphi(x)$ 为 $x$ 的欧拉函数。对于任意满足 $b\ge\varphi(m)$ 的正整数 $a,b,m$，证明：
 
 $$
